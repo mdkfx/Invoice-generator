@@ -1,36 +1,75 @@
-# Invoice Generator - React App
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+# Invoice Generator
 
-An Invoice creator project built with React. Add itemized items, configure quantity, prices, tax rates and discounts. Download Invoice as PDFs to your device. Uses [jspdf-react](https://www.npmjs.com/package/jspdf-react) to capture the data from the modal and covert it from canvas -> pdf.
+A modern web-based Invoice Generator that allows users to create, customize, and export professional invoices directly from the browser.
+The application provides an intuitive interface for entering business/client details, adding itemized billing entries, calculating totals automatically, and downloading invoices in PDF format.
 
-### Live Demo
-https://invoice-generator-react.netlify.app/
+## 🚀 Overview
 
-### Screenshots
-<img src="https://i.imgur.com/wRetnxk.png" style="max-width: 100px; width: 100%; height: auto;">
-<img src="https://i.imgur.com/AZChaei.png" style="max-width: 100px; width: 100%; height: auto;">
-<img src="https://i.imgur.com/Bz3K3DE.png" style="max-width: 100px; width: 100%; height: auto;">
+This project was built to simplify invoice creation for freelancers, small businesses, and independent professionals who require a fast and lightweight solution without backend complexity.
+It runs entirely on the client side and focuses on usability, performance, and responsive design.
 
-### Installation
+## ✨ Features
 
+* Create professional invoices within minutes
+* Add business and client information
+* Add multiple line items with quantity and rate
+* Automatic subtotal, tax, and total calculation
+* Customizable invoice dates and notes
+* Export/download invoices as PDF
+* Clean and responsive user interface
+* Fully client-side execution (no backend required)
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React, HTML, CSS
+* **Styling:** Tailwind CSS
+* **Build Tool:** Vite
+* **Language:** TypeScript / JavaScript
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/mdkfx/Invoice-generator.git
+cd Invoice-generator
 ```
-git clone https://github.com/johnuberbacher/invoice-generator
 
+Install dependencies:
+
+```bash
 npm install
-
-npm start / npm run build
 ```
 
-### To-Do
-- [x] Finish parsing data into Preview Modal
+Run development server:
 
-- [x] Currency Picker
+```bash
+npm run dev
+```
 
-- [x] Calculate Tax and Discounts
+Build for production:
 
-- [ ] Store invoices in Firebase DB
+```bash
+npm run build
+```
 
+## 🧠 How It Works
 
-### Meta
+1. Enter business and client details
+2. Add invoice items with pricing information
+3. The application calculates totals dynamically
+4. Export invoice as a downloadable PDF
 
-John Uberbacher – [johnuberbacher.com](https://johnuberbacher.com)
+All operations are processed locally in the browser for speed and privacy.
+
+## 🔮 Future Improvements
+
+* Invoice persistence (local storage / database)
+* Email invoice delivery
+* Multi-currency support
+* Authentication and user accounts
+* Invoice history tracking
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
